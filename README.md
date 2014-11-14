@@ -5,6 +5,6 @@ This is a basic implementation of zoomable vector drawings using svg and [wheelz
 
 [Demo](http://www.longsection.com/drawings/18)
 
-The included .svg file is from the ICA in Boston.
+The included .svg file is an original redrawing of the ICA in Boston.
 
 Best way to export .svg is through Adobe Illustrator, "SAVE AS", ".svg"
