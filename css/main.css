@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.drawing {
+  height: 100%;
+  width: 100%;
+}
+
+.drawing img {
+  height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  cursor: move;
+}

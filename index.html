@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>zoomable</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- jQuery CDN -->
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.wheelzoom.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="drawing">
+      <img src="svg/ica.svg">
+    </div>
+
+    <script>
+      $(window).load(function(){
+        $(".drawing img").wheelzoom({
+          zoom: 0.075
+        });
+      });
+    </script>
+
+  </body>
+</html>
